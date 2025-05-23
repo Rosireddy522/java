@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class vote {
+    public static void main(String[] args) {
+        int i;
+        char a = 'z';
+        for (i = 0; i <= 255; i++) {
+            System.out.println();
+            System.out.println(i+":"+((char)+i));
+        } 
+        System.out.print((a)+":"+(char)(a-32));
+    }
+}
